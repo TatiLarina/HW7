@@ -10,9 +10,9 @@ public class StatsService {
         return sum;
     }
 
-    public float getAverage(int[] stats) {
+    public int getAverage(int[] stats) {
         int sum = getSum(stats);
-        float average = sum/stats.length;
+        int average = sum / stats.length;
         return average;
     }
 
@@ -23,7 +23,7 @@ public class StatsService {
                 maxMonth = i;
             }
         }
-        return maxMonth+1;
+        return maxMonth + 1;
     }
 
     public int getMinMonth(int[] stats) {
@@ -33,7 +33,7 @@ public class StatsService {
                 minMonth = i;
             }
         }
-        return minMonth+1;
+        return minMonth + 1;
     }
 
     public int getLessAverage(int[] stats) {

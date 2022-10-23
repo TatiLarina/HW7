@@ -47,7 +47,7 @@
     "last_directory_selection": "C:/Users/jerrymurr/IdeaProjects/HW7/src/test/java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest">
+  <component name="RunManager" selected="JUnit.StatsServiceTest.getAverage">
     <configuration name="StatsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW7" />
       <extension name="coverage">
@@ -63,6 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatsServiceTest.getAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
+      <option name="METHOD_NAME" value="getAverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatsServiceTest.getLessAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW7" />
       <extension name="coverage">
@@ -74,22 +90,6 @@
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
       <option name="METHOD_NAME" value="getLessAverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatsServiceTest.getMaxMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.stats.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.stats" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
-      <option name="METHOD_NAME" value="getMaxMonth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsServiceTest.getAverage" />
         <item itemvalue="JUnit.StatsServiceTest" />
         <item itemvalue="JUnit.StatsServiceTest.getMoreAverage" />
         <item itemvalue="JUnit.StatsServiceTest.getLessAverage" />
         <item itemvalue="JUnit.StatsServiceTest.getMinMonth" />
-        <item itemvalue="JUnit.StatsServiceTest.getMaxMonth" />
       </list>
     </recent_temporary>
   </component>

@@ -22,8 +22,8 @@ public class StatsServiceTest {
 
         int stats[] = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        float exceptedAverage = 15;
-        float actualAverage = service.getAverage(stats);
+        int exceptedAverage = 15;
+        int actualAverage = service.getAverage(stats);
 
         Assertions.assertEquals(exceptedAverage, actualAverage);
 
