@@ -12,8 +12,7 @@ public class StatsService {
 
     public int getAverage(int[] stats) {
         int sum = getSum(stats);
-        int average = sum / stats.length;
-        return average;
+        return sum / stats.length;
     }
 
     public int getMaxMonth(int[] stats) {
@@ -38,7 +37,7 @@ public class StatsService {
 
     public int getLessAverage(int[] stats) {
         int count = 0;
-        float average = getAverage(stats);
+        int average = getAverage(stats);
         for (int s : stats) {
             if (s < average) {
                 count += 1;
@@ -49,7 +48,7 @@ public class StatsService {
 
     public int getMoreAverage(int[] stats) {
         int count = 0;
-        float average = getAverage(stats);
+        int average = getAverage(stats);
         for (int s : stats) {
             if (s > average) {
                 count += 1;
